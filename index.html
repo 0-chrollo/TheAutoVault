@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="styles.css">
-<title>The Auto Vault</title>
+<title>The Auto Vault | Vehicle Diagnostics, Auto Electrical Repairs & Maintenance in Cape Town</title>
 </head>
 <body>
 
@@ -46,8 +46,8 @@
 
   <div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
-    <a href="#">Buy A vehicle <i class="fa-solid fa-magnifying-glass"></i></a>
-    <a href="#">Sell Your vehicle</a>
+    <a href="#">About Us<i class="fa-solid fa-magnifying-glass"></i></a>
+    <a href="#">Services</a>
 
   </div>
   
@@ -206,13 +206,13 @@
 
   <section class="hero">
     <div class="hero__inner">
-      <span class="hero__eyebrow">Welcome</span>
-      <br>
+        <span class="hero__eyebrow">Cape Town's Trusted Auto Repair Centre</span>
+        <br>
       
-      <h2 class="hero__sub">We provide the best services to all our customers.</h2>
-
-      <p class="req">Request a Quote for our services below</p>
-    </div>
+        <h2 class="hero__sub">We Find the Problem. We Fix It Right. We Keep You Moving.</h2>
+      
+        <p class="req">Book your service with us today and get a fast, honest response.</p>
+      </div>
     <div class="hero__card-wrap">
       <div class="hero__card">
 
@@ -404,70 +404,56 @@
             
             
             
-            <div style="text-align:center;margin-top:vh;" >
-
-              <h2 style="font-size: 1.1rem; font-weight: 600;color:rgb(255, 255, 255); padding:10px;">Quote Request Form </h2> 
-            </div>
-            
-            
-            
-            <div class="containerd">
-              <!-- Column 1: Form -->
-            <div class="column-1">
-            <form action="https://formsubmit.co/gu" method="POST">
-            <input type="hidden" name="_next" value="https://www.ph/contact.html?submitted=true">
-            <input type="hidden" name="_subject" value="New Service Inquiry - Phiribathong Consulting">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="false">
-            
-            <div class="form-group name-group">
-              <input type="text" name="firstName" placeholder="First Name" required>
-              <input type="text" name="surname" placeholder="Surname" required>
-            </div>
-            
-            <div class="form-group">
-              <input type="email" name="email" placeholder="Email Address" required>
-            </div>
-            
-            <div class="form-group">
-              <input type="tel" name="phone" placeholder="Phone Number" required>
-            </div>
-            
-          
-            
-            <div class="form-group">
-              <label>What service are you looking for?</label>
-              <select name="serviceType" required>
-                <option value="">Select a service...</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-                <option value="SEO & Social Media">SEO & Social Media Management</option>
-                <option value="Building Construction">Building Construction</option>
-                <option value="Renovation Services">Renovation Services</option>
-                <option value="Solar Panel Installation">Solar Panel Installation</option>
-                <option value="Plumbing Services">Plumbing Services</option>
-                <option value="Electrical Work">Electrical Work</option>
-                <option value="Procurement Solutions">Procurement Solutions</option>
-                <option value="Property Maintenance">Property Maintenance</option>
-                <option value="Multiple Services">Multiple Services</option>
-              </select>
-            </div>
-            
-
-
-            
-            
-            
-            
-            
-            <div class="form-group">
-              <textarea name="projectDetails" rows="5" placeholder="Tell us about your project - What are your goals? Any specific requirements or challenges we should know about? (Optional)" required></textarea>
-            </div>
-            
-            
-            <button type="submit" class="btn-submit">
-              <i class="fas fa-paper-plane"></i> Submit
-            </button>
-            </form>
+            <div style="text-align:center; margin-top:2vh;">
+                <h2 style="font-size: 1.1rem; font-weight: 600; color: rgb(255, 255, 255); padding:10px;">Book a Service</h2>
+              </div>
+              
+              <div class="containerd">
+                <div class="column-1">
+                  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+                    <input type="hidden" name="_next" value="https://www.YOURWEBSITE.co.za/contact.html?submitted=true">
+                    <input type="hidden" name="_subject" value="New Service Booking - The Auto Vault">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+              
+                    <div class="form-group name-group">
+                      <input type="text" name="firstName" placeholder="First Name" required>
+                      <input type="text" name="surname" placeholder="Surname" required>
+                    </div>
+              
+                    <div class="form-group">
+                      <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+              
+                    <div class="form-group">
+                      <input type="tel" name="phone" placeholder="Phone Number" required>
+                    </div>
+              
+                    <div class="form-group">
+                      <input type="text" name="vehicle" placeholder="Vehicle Make, Model & Year (e.g. Toyota Corolla 2019)" required>
+                    </div>
+              
+                    <div class="form-group">
+                      <label>What service do you need?</label>
+                      <select name="serviceType" required>
+                        <option value="">Select a service...</option>
+                        <option value="Vehicle Diagnostics">Vehicle Diagnostics</option>
+                        <option value="Auto Electrical Repairs">Auto Electrical Repairs</option>
+                        <option value="General Vehicle Maintenance">General Vehicle Maintenance</option>
+                        <option value="Not Sure - Need Advice">Not Sure — I Need Advice</option>
+                      </select>
+                    </div>
+              
+                    <div class="form-group">
+                      <textarea name="vehicleDetails" rows="5" placeholder="Describe the issue or service needed — e.g. warning light on, battery problems, due for a service. (Optional)"></textarea>
+                    </div>
+              
+                    <button type="submit" class="btn-submit">
+                      <i class="fas fa-paper-plane"></i> Submit Booking
+                    </button>
+                  </form>
+                </div>
+              </div>
             
             <!-- Success Popup -->
             <div id="successPopup" class="popup-overlay">
@@ -542,7 +528,7 @@
     
         .about-headline em {
           font-style: italic;
-          color: #888;
+          color: rgb(179, 30, 16) ;
         }
     
         .about-right {
@@ -567,7 +553,7 @@
     
         .about-p strong {
           font-weight: 500;
-          color: #1a1a1a;
+          color: rgb(179, 30, 16) ;
         }
     
         .about-divider {
@@ -593,31 +579,27 @@
       </style>
   
     
-      <section class="about-wrap">
-    
-        <div class="about-top">
-          <div class="about-left">
-            <div class="about-label">About us</div>
-            <h1 class="about-headline">
-              We build things that<br><em>actually matter</em> to people.
-            </h1>
-          </div>
-    
-          <div class="about-right">
-            <p class="about-p">
-              Founded in 2018, we started as a small team with a single belief — that <strong>great craft and genuine purpose</strong> aren't opposites. We design and build digital products for companies who want to leave something behind worth keeping.
-            </p>
-            <p class="about-p">
-              Today we're a studio of twenty-something thinkers, writers, and makers. We take on fewer projects on purpose. Every client gets the whole team, full attention, and work we're proud to sign our name on.
-            </p>
-          </div>
-        </div>
-    
-  
-    
+  <section class="about-wrap">
 
-    
-      </section>
+    <div class="about-top">
+        <div class="about-left">
+          <div class="about-label">About Us</div>
+          <h1 class="about-headline">
+            Cape Town's auto repair shop that<br><em>actually gets it right.</em>
+          </h1>
+        </div>
+      
+        <div class="about-right">
+          <p class="about-p">
+            The Auto Vault is a professional automotive service and repair centre based in Cape Town, built on one simple belief: <strong>quality work, zero shortcuts.</strong> We specialise in vehicle diagnostics, auto electrical repairs, and general maintenance for car owners who deserve straight answers and real solutions.
+          </p>
+          <p class="about-p">
+            Using modern diagnostic tools and skilled technicians, we get to the root of the problem fast. No guesswork, no inflated bills. Whether it's an electrical fault or a routine service, you'll always know exactly what's being done to your vehicle and why. That's our promise.
+          </p>
+        </div>
+      </div>
+  
+  </section>
    
 
 
@@ -631,33 +613,33 @@
 
   <div class="features-grid">
 
-    <!-- AA Warranties -->
+    <!-- Vehicle Diagnostics -->
     <div class="feature-card">
       <div class="feature-icon">
-        <i class="fa-solid fa-shield-halved"></i>
+        <i class="fa-solid fa-gauge-high"></i>
       </div>
-      <p class="feature-title">AA Warranties</p>
-      <p class="feature-desc">Approved AA Authorised Dealer offering trusted warranty coverage on all vehicles.</p>
+      <p class="feature-title">Vehicle Diagnostics</p>
+      <p class="feature-desc">We use modern diagnostic tools to accurately pinpoint any fault in your vehicle, fast and without the guesswork.</p>
     </div>
-
-    <!-- Vehicle Asset Finance -->
+  
+    <!-- Auto Electrical Repairs -->
     <div class="feature-card">
       <div class="feature-icon">
-        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <i class="fa-solid fa-car-battery"></i>
       </div>
-      <p class="feature-title">Vehicle asset finance</p>
-      <p class="feature-desc">Fully customisable finance options, best suited to each client's individual needs.</p>
+      <p class="feature-title">Auto Electrical Repairs</p>
+      <p class="feature-desc">From wiring faults to battery and electrical system failures, our skilled technicians find and fix the problem properly.</p>
     </div>
-
-    <!-- Nationwide Delivery -->
+  
+    <!-- General Vehicle Maintenance -->
     <div class="feature-card">
       <div class="feature-icon">
-        <i class="fa-solid fa-truck-fast"></i>
+        <i class="fa-solid fa-screwdriver-wrench"></i>
       </div>
-      <p class="feature-title">Nationwide delivery</p>
-      <p class="feature-desc">Specialised, effective nationwide delivery, your vehicle brought straight to you.</p>
+      <p class="feature-title">General Vehicle Maintenance</p>
+      <p class="feature-desc">Keep your car running at its best with reliable, thorough maintenance services you can count on every time.</p>
     </div>
-
+  
   </div>
 
 
@@ -698,20 +680,20 @@
         font-weight: 500;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        color: #888;
+        color: #5c5c5c;
         margin-bottom: 8px;
       }
   
       .services-heading {
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 600;
-        color: #f0f0f0;
+        color: rgb(170, 35, 23) ;
         margin-bottom: 10px;
       }
   
       .services-desc {
         font-size: 14px;
-        color: #888;
+        color: #626262;
         max-width: 420px;
         line-height: 1.65;
         margin-bottom: 36px;
@@ -799,58 +781,58 @@
     </style>
 
   <div class="magic">
-    <section class="services-section">
-      <p class="services-eyebrow">What we offer</p>
-      <h2 class="services-heading">Our services for your vehicle</h2>
-      <p class="services-desc">From deep interior cleans to long-lasting ceramic protection professional detailing solutions tailored to keep your vehicle in showroom condition.</p>
-  
-      <div class="cards-grid">
-  
-        <!-- Card 1 -->
-        <div class="card">
-          <!-- Replace src with your actual image -->
-          <img src="vehdiogn.jpeg" alt="Ceramic Coatings" />
-          <div class="card-overlay"></div>
-          <div class="card-label">
-            <span>
-              Ceramic Coatings
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
+    
+        <section class="services-section">
+          <p class="services-eyebrow">What we offer</p>
+          <h2 class="services-heading">Our services for your vehicle</h2>
+          <p class="services-desc">From accurate fault diagnosis to full electrical repairs and routine maintenance, we provide dependable automotive solutions that keep your vehicle safe, reliable, and performing at its best.</p>
+      
+          <div class="cards-grid">
+      
+            <!-- Card 1 -->
+            <div class="card">
+              <img src="vehdiogn.jpeg" alt="Vehicle Diagnostics" />
+              <div class="card-overlay"></div>
+              <div class="card-label">
+                <span>
+                  Vehicle Diagnostics
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="elecrepairs.jpg" alt="Auto Electrical Repairs" />
+              <div class="card-overlay"></div>
+              <div class="card-label">
+                <span>
+                  Auto Electrical Repairs
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="card">
+              <img src="general.jpg" alt="General Vehicle Maintenance" />
+              <div class="card-overlay"></div>
+              <div class="card-label">
+                <span>
+                  General Vehicle Maintenance
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+            </div>
+      
           </div>
-        </div>
-  
-        <!-- Card 2 -->
-        <div class="card">
-          <img src="elecrepairs.jpg" alt="Headlight & Plastic Restorations" />
-          <div class="card-overlay"></div>
-          <div class="card-label">
-            <span>
-              Headlight &amp; Plastic Restorations
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-          </div>
-        </div>
-  
-        <!-- Card 3 -->
-        <div class="card">
-          <img src="general.jpg" alt="Interior Detailing" />
-          <div class="card-overlay"></div>
-          <div class="card-label">
-            <span>
-              Interior Detailing
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-          </div>
-        </div>
-  
-      </div>
-    </section>
+        </section>
   
 </div>
 
@@ -1022,71 +1004,118 @@
   </style>
   
   <footer class="footer">
+
+    <!-- Top: Brand + Nav Columns -->
+    <div class="footer__top">
   
-  <!-- Top: Brand + Nav Columns -->
-  <div class="footer__top">
+      <!-- Brand -->
+      <div class="footer__brand">
+        <h2>The Auto Vault</h2>
+        <p>Cape Town's trusted automotive service and repair centre. We diagnose, repair, and maintain your vehicle right.</p>
+        <div class="footer__social">
   
-    <!-- Brand -->
-    <div class="footer__brand">
-      <h2>MKR Auto Sales</h2>
-      <p>Your trusted destination for vehicles, accessories, and finance. We deliver nationwide.</p>
-      <div class="footer__social">
+          <a href="#" class="footer__social-icon footer__social-icon--facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
   
-        <a href="#" class="footer__social-icon footer__social-icon--facebook">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-      
-        <a href="#" class="footer__social-icon footer__social-icon--instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-      
-        <a href="https://wa.me/27662912809" target="_blank" class="footer__social-icon footer__social-icon--whatsapp">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
-      
+     
+  
+          <a href="https://wa.me/27678118395" target="_blank" class="footer__social-icon footer__social-icon--whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+  
+        </div>
       </div>
-    </div>
   
-    <!-- Vehicles -->
-    <div class="footer__col">
-      <h4>Vehicles</h4>
-      <a href="#">Fresh Arrivals </a>
+      <!-- Services -->
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="#">Vehicle Diagnostics</a>
+        <a href="#">Auto Electrical Repairs</a>
+        <a href="#">General Maintenance</a>
+      </div>
   
-      <a href="#">View All Stock</a>
-    </div>
+      <!-- Company -->
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Our Services</a>
+        <a href="#">Contact Us</a>
+      </div>
   
-    <!-- Finance -->
-    <div class="footer__col">
-      <h4>Finance</h4>
-      <a href="#">Apply Online</a>
-      <a href="#">Finance Options</a>
-   
-      <a href="#">FAQs</a>
-    </div>
-  
-    <!-- Company -->
-    <div class="footer__col">
-      <h4>Company</h4>
-      <a href="#">About Us</a>
-  
-      <a href="#">Nationwide Delivery</a>
-      <a href="#">Contact Us</a>
-    </div>
-  
-  </div>
-  <!-- /footer__top -->
-  
-  <!-- Bottom Bar -->
-  <div class="footer__bottom">
-    <div class="footer__bottom-links">
+      <!-- Contact -->
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:0215562799">021 556 2799</a>
+        <a href="https://wa.me/27678118395" target="_blank">067 811 8395</a>
+        <a href="#">13A Parklands Building, Parklands Main Road, Cape Town</a>
+      </div>
   
     </div>
-    <span class="footer__copyright">&copy; 2026 MKR Auto Sales. All rights reserved.</span>
-  </div>
-  <!-- /footer__bottom -->
+    <!-- /footer__top -->
+  
+    <!-- Bottom Bar -->
+    <div class="footer__bottom">
+      <div class="footer__bottom-links">
+      </div>
+      <span class="footer__copyright">&copy; 2026 The Auto Vault. All rights reserved.</span>
+    </div>
+    <!-- /footer__bottom -->
   
   </footer>
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/27678118395" target="_blank" class="whatsapp-float">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat</span>
+  </a>
+  
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 30px;
+      right: 15px;
+      background: #862d25;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 5px 10px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      box-shadow: 0 4px 20px rgba(147, 9, 9, 0.4);
+      z-index: 9999;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+  
+    .whatsapp-float i {
+      font-size: 18px;
+    }
+  
+    .whatsapp-float:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+    }
+  </style>
 
 </body>
 
