@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+<title>The Auto Vault</title>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <img src="TAVlogo.png" alt="Logo">
+    
+  </div>
+  <div>
+    <p class="booker">Get Quote</p>
+  </div>
+
+  <style>
+    .booker{
+        background: linear-gradient(135deg, rgb(209, 77, 65)0%, rgb(98, 17, 9) 100%);
+                color: rgb(213, 213, 213);
+                font-size: 14px;
+                padding: 8px 30px;
+                font-family:'Lucida Sans', Arial, sans-serif;
+                border: 2px solid #ffffff;
+                border-radius: 20px;
+                font-weight: 500;
+
+
+    }
+  </style>
+
+  <button class="menu-toggle" id="toggle" aria-label="Toggle menu">
+
+    <span>Menu</span>
+    <div class="bars">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </button>
+
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="#">Buy A vehicle <i class="fa-solid fa-magnifying-glass"></i></a>
+    <a href="#">Sell Your vehicle</a>
+
+  </div>
+  
+</nav>
+
+
+<!-- Hero Ssection Of The Website -->
+<!-- Hero Ssection Of The Website -->
+<!-- Hero Ssection Of The Website -->
+<!-- Hero Ssection Of The Website -->
+<!-- Hero Ssection Of The Website -->
+
+
+<style>
+
+
+
+    /* ── HERO ──────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height:75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: visible;
+
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(10, 10, 10, 0.18) 0%,
+          rgba(10, 10, 10, 0.52) 60%,
+          rgba(10, 10, 10, 0.82) 100%
+        ),
+        url("vementance.jpg");
+      background-size: cover;
+      background-position: center 40%;
+      background-repeat: no-repeat;
+
+      font-family: 'Georgia', 'Times New Roman', serif;
+    }
+
+    /* ── Hero inner text ─── */
+    .hero__inner {
+      padding: clamp(2rem, 6vw, 5rem) clamp(1.5rem, 8vw, 7rem);
+      padding-bottom: clamp(4rem, 10vw, 7rem);
+      max-width: 680px;
+    }
+
+    .hero__eyebrow {
+      display: inline-block;
+      font-family: 'Courier New', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 3rem;
+    }
+
+    .hero__title {
+      margin: 0 0 1rem;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 400;
+      line-height: 1.05;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+
+    .hero__sub {
+      margin: 0;
+      font-size: clamp(1.5rem, 2.5vw, 1.5rem);
+      color: rgba(255, 255, 255, 0.799);
+      
+      letter-spacing: 0.01em;
+      line-height: 1.6;
+
+    }
+
+    .req{
+
+        color:white;
+        padding-top: 2rem;
+
+    }
+
+    /* ── Overlapping card wrapper ─── */
+    .hero__card-wrap {
+      display: flex;
+      justify-content: center;
+      padding: 0 clamp(1.5rem, 6vw, 4rem);
+      margin-bottom: -8rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* ── Card ─── */
+    .hero__card {
+      background: linear-gradient(135deg, #181818 0%, #2d2d2d 100%);
+
+      padding: clamp(2rem, 4vw, 3rem) clamp(1.8rem, 4vw, 3rem);
+      width: 100%;
+      max-width: 780px;
+      box-shadow:
+        0 8px 40px rgba(0,0,0,0.14),
+        0 2px 8px rgba(0,0,0,0.08);
+
+      animation: cardRise 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+    }
+
+    @keyframes cardRise {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+
+
+
+    /* ── Section below (to show the overlap) ─── */
+    .below {
+     margin-top:20vh;
+      padding: 0rem 1rem;
+ 
+    }
+
+    /* ── Responsive ─── */
+    @media (max-width: 600px) {
+      .hero__card {
+    
+        
+        }
+
+      .hero__card-wrap {
+         margin-bottom: -10.5rem;
+        
+        }
+    }
+
+    @media (max-width: 480px) {
+      .hero__card {
+
+        
+        }
+
+      .hero__card-wrap {
+         margin-bottom: -10.5rem;
+        
+        }
+
+    }
+
+
+  </style >
+
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+    <div class="hero__inner">
+      <span class="hero__eyebrow">Welcome</span>
+      <br>
+      
+      <h2 class="hero__sub">We provide the best services to all our customers.</h2>
+
+      <p class="req">Request a Quote for our services below</p>
+    </div>
+    <div class="hero__card-wrap">
+      <div class="hero__card">
+
+        <main class="tm-form">
+
+            <style>
+      
+          
+      
+              .tm-form {
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            
+              }
+            
+              .containerd {
+                  padding: 5px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                width: 100%;
+                max-width: 800px;
+              }
+            
+              .column-1,
+              .column-2 {
+                flex: 1 1 45%;
+                box-sizing: border-box;
+              }
+            
+              @media (max-width: 768px) {
+                .column-1,
+                .column-2 {
+                  flex: 1 1 100%;
+                }
+              }
+        
+              .form-container {
+                background: white;
+                padding: 20px;
+                border-radius: 1px;
+                box-shadow: 0px 4px 10px rgba(48, 48, 48, 0.051);
+                margin-bottom: 30px;
+              }
+            
+              .form-group {
+                margin-bottom: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                color: white;
+              }
+            
+              .form-group label {
+                flex: 1 1 100%;
+                font-size: 15px;
+                font-weight: bold;
+                color: rgb(220, 220, 220);
+              }
+            
+              .form-group input,
+              .form-group select,
+              .form-group textarea {
+                background: linear-gradient(135deg, #434343 0%, #2d2d2d 100%);
+                flex: 1;
+                padding: 10px;
+                font-size: 12px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                width: 100%;
+                color: white;
+              }
+            
+              .btn-submit {
+                background: linear-gradient(135deg, rgb(209, 77, 65)0%, rgb(98, 17, 9) 100%);
+                color: white;
+                font-size: 14px;
+                padding: 13px 1px;
+                font-family:'Lucida Sans', Arial, sans-serif;
+                border: 3px solid #c5c5c5;
+                border-radius: 20px;
+                cursor: pointer;
+                width: 100%;
+                transition: 0.3s;
+                display:inline;
+                justify-content: center;
+                align-content: center;
+
+                
+ 
+                gap: 10px;
+              }
+            
+              .btn-submit:hover {
+                background-color: rgb(20, 20, 20);
+              }
+            
+              @media (min-width: 480px) {
+                .name-group {
+                  display: flex;
+                  gap: 10px;
+                  color: #ffffff;
+                }
+            
+                .name-group input {
+                  flex: 1;
+                  color: white;;
+                }
+              }
+            
+            
+              ::placeholder{
+
+                color:#ffffff;
+              }
+            /* Popup Styles */
+            .popup-overlay {
+                position: fixed; 
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                display: none;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+              }
+            
+              .popup-box {
+                background:  rgb(6, 40, 61);
+                padding: 2rem 3rem;
+                border-top-right-radius: 15px;
+               border-bottom-left-radius: 15px;
+                text-align: center;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+                width: 50%;
+                max-width: 600px;
+                min-width: 300px;
+              }
+            
+              @media (max-width: 768px) {
+                .popup-box {
+                  width: 85%;
+                }
+              }
+            
+            
+              .popup-box {
+                background: rgb(6, 40, 61);
+                padding: 2rem 3rem;
+                border-top-right-radius: 15px;
+               border-bottom-left-radius: 15px;
+                text-align: center;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+              }
+            
+              .popup-box i {
+                margin-bottom: 1rem;
+                color: rgb(255, 255, 255);
+              }
+            
+              .popup-box p {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                color: #f9f9f9;
+              }
+            
+              .popup-box button {
+                background-color: rgba(233, 241, 246, 0.922);
+                color:rgb(43, 65, 79);
+                border: none;
+                padding: 0.6rem 1.2rem;
+                font-size: 1.1rem;
+               border-top-right-radius: 14px;
+               border-bottom-left-radius: 14px;
+                cursor: pointer;
+              }
+            
+              .popup-box button:hover {
+                background-color: rgb(255, 255, 255);
+              }
+            </style>
+            
+            
+            
+            <div style="text-align:center;margin-top:vh;" >
+
+              <h2 style="font-size: 1.1rem; font-weight: 600;color:rgb(255, 255, 255); padding:10px;">Quote Request Form </h2> 
+            </div>
+            
+            
+            
+            <div class="containerd">
+              <!-- Column 1: Form -->
+            <div class="column-1">
+            <form action="https://formsubmit.co/gu" method="POST">
+            <input type="hidden" name="_next" value="https://www.ph/contact.html?submitted=true">
+            <input type="hidden" name="_subject" value="New Service Inquiry - Phiribathong Consulting">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            
+            <div class="form-group name-group">
+              <input type="text" name="firstName" placeholder="First Name" required>
+              <input type="text" name="surname" placeholder="Surname" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            
+          
+            
+            <div class="form-group">
+              <label>What service are you looking for?</label>
+              <select name="serviceType" required>
+                <option value="">Select a service...</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="SEO & Social Media">SEO & Social Media Management</option>
+                <option value="Building Construction">Building Construction</option>
+                <option value="Renovation Services">Renovation Services</option>
+                <option value="Solar Panel Installation">Solar Panel Installation</option>
+                <option value="Plumbing Services">Plumbing Services</option>
+                <option value="Electrical Work">Electrical Work</option>
+                <option value="Procurement Solutions">Procurement Solutions</option>
+                <option value="Property Maintenance">Property Maintenance</option>
+                <option value="Multiple Services">Multiple Services</option>
+              </select>
+            </div>
+            
+
+
+            
+            
+            
+            
+            
+            <div class="form-group">
+              <textarea name="projectDetails" rows="5" placeholder="Tell us about your project - What are your goals? Any specific requirements or challenges we should know about? (Optional)" required></textarea>
+            </div>
+            
+            
+            <button type="submit" class="btn-submit">
+              <i class="fas fa-paper-plane"></i> Submit
+            </button>
+            </form>
+            
+            <!-- Success Popup -->
+            <div id="successPopup" class="popup-overlay">
+            <div class="popup-box">
+              <i class="fas fa-check-circle fa-3x" style="color: rgb(223, 223, 223);"></i>
+              <p>Thank you! We've received your inquiry and our team will contact you shortly to discuss your project.</p>
+              <button onclick="closePopup()">Close</button>
+            </div>
+            </div>
+            </div>
+      
+    
+      </div>
+    </div>
+  </section>
+
+  <!-- Section below to show the card overlap effect -->
+  <br>
+  <section class="below"> 
+
+
+
+
+  <style>
+ 
+    
+      
+    
+        .about-wrap {
+          
+          padding: 3rem 0rem;
+          max-width: 1280px;
+          margin: 0 auto;
+          width: 100%;
+        }
+    
+        .about-top {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+    
+        @media (min-width: 900px) {
+          .about-top {
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: end;
+          }
+        }
+    
+        .about-label {
+          font-size: 11px;
+          font-weight: 500;
+          letter-spacing: 0.18em;
+          text-transform: uppercase;
+          color: #999;
+          margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+    
+      
+    
+        .about-headline {
+          font-family: 'DM Serif Display', serif;
+          font-size: clamp(1.5rem, 3vw, 3.2rem);
+          font-weight: 400;
+          line-height: 1.13;
+          color: #1a1a1a;
+        }
+    
+        .about-headline em {
+          font-style: italic;
+          color: #888;
+        }
+    
+        .about-right {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          gap: 1.25rem;
+        }
+    
+        @media (min-width: 900px) {
+          .about-right {
+            padding-top: 2rem;
+          }
+        }
+    
+        .about-p {
+          font-size: clamp(14px, 1.2vw, 16px);
+          font-weight: 300;
+          line-height: 1.85;
+          color: #555;
+        }
+    
+        .about-p strong {
+          font-weight: 500;
+          color: #1a1a1a;
+        }
+    
+        .about-divider {
+          width: 100%;
+          height: 0.5px;
+          background: #e0e0e0;
+          margin: clamp(2rem, 4vw, 4rem) 0;
+        }
+    
+        .about-bottom {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
+        }
+    
+        @media (min-width: 640px) {
+          .about-bottom {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
+    
+       
+      </style>
+  
+    
+      <section class="about-wrap">
+    
+        <div class="about-top">
+          <div class="about-left">
+            <div class="about-label">About us</div>
+            <h1 class="about-headline">
+              We build things that<br><em>actually matter</em> to people.
+            </h1>
+          </div>
+    
+          <div class="about-right">
+            <p class="about-p">
+              Founded in 2018, we started as a small team with a single belief — that <strong>great craft and genuine purpose</strong> aren't opposites. We design and build digital products for companies who want to leave something behind worth keeping.
+            </p>
+            <p class="about-p">
+              Today we're a studio of twenty-something thinkers, writers, and makers. We take on fewer projects on purpose. Every client gets the whole team, full attention, and work we're proud to sign our name on.
+            </p>
+          </div>
+        </div>
+    
+  
+    
+
+    
+      </section>
+   
+
+
+
+
+
+
+  </section>
+
+
+
+  <div class="features-grid">
+
+    <!-- AA Warranties -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+      <p class="feature-title">AA Warranties</p>
+      <p class="feature-desc">Approved AA Authorised Dealer offering trusted warranty coverage on all vehicles.</p>
+    </div>
+
+    <!-- Vehicle Asset Finance -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+      </div>
+      <p class="feature-title">Vehicle asset finance</p>
+      <p class="feature-desc">Fully customisable finance options, best suited to each client's individual needs.</p>
+    </div>
+
+    <!-- Nationwide Delivery -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fa-solid fa-truck-fast"></i>
+      </div>
+      <p class="feature-title">Nationwide delivery</p>
+      <p class="feature-desc">Specialised, effective nationwide delivery, your vehicle brought straight to you.</p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+   
+  
+      .magic {
+        
+
+        padding: 60px 24px;
+      }
+  
+      .services-section {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+  
+      .services-eyebrow {
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 8px;
+      }
+  
+      .services-heading {
+        font-size: 26px;
+        font-weight: 600;
+        color: #f0f0f0;
+        margin-bottom: 10px;
+      }
+  
+      .services-desc {
+        font-size: 14px;
+        color: #888;
+        max-width: 420px;
+        line-height: 1.65;
+        margin-bottom: 36px;
+      }
+  
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+  
+      .card {
+        position: relative;
+        border-radius: 14px;
+        overflow: hidden;
+        height: 480px;
+        cursor: pointer;
+        background: #1a1a1a;
+      }
+  
+      .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+  
+      .card:hover img {
+        transform: scale(1.04);
+      }
+  
+      .card-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.78) 0%,
+          rgba(0, 0, 0, 0.20) 55%,
+          rgba(0, 0, 0, 0.05) 100%
+        );
+      }
+  
+      .card-label {
+        position: absolute;
+        bottom: 22px;
+        left: 22px;
+        right: 22px;
+      }
+  
+      .card-label span {
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+  
+      .card-label span svg {
+        flex-shrink: 0;
+        opacity: 0.85;
+      }
+  
+      /* Responsive */
+      @media (max-width: 900px) {
+        .cards-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+  
+      @media (max-width: 580px) {
+        .cards-grid {
+          grid-template-columns: 1fr;
+        }
+  
+        .card {
+          height: 260px;
+        }
+  
+        .services-heading {
+          font-size: 22px;
+        }
+      }
+    </style>
+
+  <div class="magic">
+    <section class="services-section">
+      <p class="services-eyebrow">What we offer</p>
+      <h2 class="services-heading">Our services for your vehicle</h2>
+      <p class="services-desc">From deep interior cleans to long-lasting ceramic protection professional detailing solutions tailored to keep your vehicle in showroom condition.</p>
+  
+      <div class="cards-grid">
+  
+        <!-- Card 1 -->
+        <div class="card">
+          <!-- Replace src with your actual image -->
+          <img src="vehdiogn.jpeg" alt="Ceramic Coatings" />
+          <div class="card-overlay"></div>
+          <div class="card-label">
+            <span>
+              Ceramic Coatings
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="elecrepairs.jpg" alt="Headlight & Plastic Restorations" />
+          <div class="card-overlay"></div>
+          <div class="card-label">
+            <span>
+              Headlight &amp; Plastic Restorations
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="general.jpg" alt="Interior Detailing" />
+          <div class="card-overlay"></div>
+          <div class="card-label">
+            <span>
+              Interior Detailing
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+
+
+
+
+    /* ─── Footer Wrapper ─────────────────────────────────────── */
+    .footer {
+        background: linear-gradient(135deg, #181818 0%, #2d2d2d 100%);
+      color: #cdd3e0;
+      padding: 2.5rem 2rem 1.5rem;
+    }
+  
+    /* ─── Top Section (Brand + Nav Columns) ─────────────────── */
+    .footer__top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    /* Brand */
+    .footer__brand h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  
+    .footer__brand p {
+      color: #8a95aa;
+      font-size: 13px;
+      line-height: 1.6;
+      max-width: 220px;
+      margin-bottom: 14px;
+    }
+  
+    /* Social Icons */
+    .footer__social {
+      
+      display: flex;
+      gap: 8px;
+    }
+  
+    .footer__social-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .footer__social-icon svg {
+      width: 14px;
+      height: 14px;
+      fill: #ffffff;
+    }
+  
+    .footer__social-icon--facebook  {
+       background-color: #3b5998; 
+       text-decoration: none;
+       color: white;
+      }
+  
+    .footer__social-icon--instagram { background-color: #c13584;
+      text-decoration: none;
+       color: white; }
+    .footer__social-icon--whatsapp  { background-color: #108f0a;
+    
+      text-decoration: none;
+       color: white; }
+  
+    /* Nav Columns */
+    .footer__col h4 {
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+  
+    .footer__col a {
+      display: block;
+      color: #8a95aa;
+      text-decoration: none;
+      font-size: 13px;
+      margin-bottom: 9px;
+      transition: color 0.2s;
+    }
+  
+    .footer__col a:hover {
+      color: #ffffff;
+    }
+  
+    /* ─── Bottom Bar ─────────────────────────────────────────── */
+    .footer__bottom {
+      border-top: 0.5px solid #2e3a55;
+      padding-top: 1.25rem;
+      text-align: center;
+    }
+  
+    .footer__bottom-links {
+      margin-bottom: 6px;
+    }
+  
+    .footer__bottom-links a {
+      color: #5a6478;
+      text-decoration: none;
+      font-size: 12px;
+      margin: 0 8px;
+      transition: color 0.2s;
+    }
+  
+    .footer__bottom-links a:hover {
+      color: #8a95aa;
+    }
+  
+    .footer__copyright {
+      color: #5a6478;
+      font-size: 12px;
+    }
+  
+    /* ─── Responsive ─────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .footer__top {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+      .footer__brand {
+        grid-column: 1 / -1;
+      }
+    }
+  
+  </style>
+  
+  <footer class="footer">
+  
+  <!-- Top: Brand + Nav Columns -->
+  <div class="footer__top">
+  
+    <!-- Brand -->
+    <div class="footer__brand">
+      <h2>MKR Auto Sales</h2>
+      <p>Your trusted destination for vehicles, accessories, and finance. We deliver nationwide.</p>
+      <div class="footer__social">
+  
+        <a href="#" class="footer__social-icon footer__social-icon--facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      
+        <a href="#" class="footer__social-icon footer__social-icon--instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      
+        <a href="https://wa.me/27662912809" target="_blank" class="footer__social-icon footer__social-icon--whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      
+      </div>
+    </div>
+  
+    <!-- Vehicles -->
+    <div class="footer__col">
+      <h4>Vehicles</h4>
+      <a href="#">Fresh Arrivals </a>
+  
+      <a href="#">View All Stock</a>
+    </div>
+  
+    <!-- Finance -->
+    <div class="footer__col">
+      <h4>Finance</h4>
+      <a href="#">Apply Online</a>
+      <a href="#">Finance Options</a>
+   
+      <a href="#">FAQs</a>
+    </div>
+  
+    <!-- Company -->
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+  
+      <a href="#">Nationwide Delivery</a>
+      <a href="#">Contact Us</a>
+    </div>
+  
+  </div>
+  <!-- /footer__top -->
+  
+  <!-- Bottom Bar -->
+  <div class="footer__bottom">
+    <div class="footer__bottom-links">
+  
+    </div>
+    <span class="footer__copyright">&copy; 2026 MKR Auto Sales. All rights reserved.</span>
+  </div>
+  <!-- /footer__bottom -->
+  
+  </footer>
+  
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
+
+
+
+
